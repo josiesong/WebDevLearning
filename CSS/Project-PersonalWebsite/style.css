@@ -1,0 +1,40 @@
+body{
+    background-color:#f2f2f2;
+}
+
+.navbar {
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+.nav-left{
+    display: inline-block;
+    color: black;
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.nav-right{
+    display: inline-block;
+    color: black;
+    margin-right: 20px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: darkslategrey;
+    margin-right: 20px;
+  }
+  
+  .nav-right a:hover {
+    color: #000;
+  }
+
+.section-title{
+    font-size: 3rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
